@@ -1,0 +1,55 @@
+1. Open PhenoTips
+
+2. Click “New Patient Record” to create a new
+
+patient and view the Patient Form
+
+3. Scroll to the “Clinical symptoms and
+
+physical findings” section and open it.
+
+4. Next to the “Browse Categories” header,
+
+click “Expand All”. Click “Y” next to one of
+
+the phenotype terms listed, for example
+
+“Decreased Body Weight”. Notice that it
+
+now appears as an item in the
+
+pane on the right­hand side.
+
+5. Note the “Delete” button and
+
+what happens when you click
+
+on it. There is no confirmation,
+
+the term is deleted immediately.
+
+The task
+
+Add a confirmation dialog (using Javascript window.confirm) when the delete button is clicked.
+
+If the user clicks “Ok”, the deletion should proceed, but if they click “Cancel”, the deletion
+
+should not proceed.
+
+Hints
+
+● The relevant code will be found at
+
+http://localhost:8080/edit/PhenoTips/PatientSheetCode?editor=object (assuming your
+
+local instance is running at localhost:8080), in one of the “Objects of type
+
+XWiki.JavaScriptExtension” (you will need to figure out which object!). You can use the
+
+“Quick Save” button at bottom left after making changes to the Javascript code and your
+
+changes will be reflected in the patient form after a page refresh.
+
+● In order to permanently save and commit the change, you will need to edit a file called
+
+“PatientSheetCode.xml”
